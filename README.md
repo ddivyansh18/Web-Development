@@ -1,2 +1,2 @@
 # Web-Development
-Learning web development
+Learning some web development
