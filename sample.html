@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
+<script type="text/javascript">
+$(function(){
+    $('#button').click(function(){ 
+        if(!$('#iframe').length) {
+                $('#iframeHolder').html('<iframe src="https://i.simmer.io/@ddivyansh18/sample-cylinder" style="width:960px;height:600px;border:0"></iframe>');
+        }
+    });   
+});
+</script>
+ 
+<button id="button">Button</button>
+<div id="iframeHolder"></div>
+
+</body>
+</html>
